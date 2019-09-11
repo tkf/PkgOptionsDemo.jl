@@ -3,6 +3,9 @@ uuid = "bb3b8621-5970-400b-8acd-051caadabee1"
 authors = ["Takafumi Arakaki <aka.tkf@gmail.com>"]
 version = "0.1.0"
 
+[deps]
+PkgOptionsLoader = "a1f74f29-89a2-4b0d-830c-4d59713831bd"
+
 [compat]
 julia = "1.2"
 

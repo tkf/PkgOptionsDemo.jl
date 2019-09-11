@@ -1,5 +1,7 @@
 module PkgOptionsDemo
 
-greet() = print("Hello World!")
+using PkgOptionsLoader
+
+const pkgoptions = PkgOptionsLoader.@load
 
 end # module
